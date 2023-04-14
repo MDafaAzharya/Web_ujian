@@ -1,0 +1,53 @@
+*,
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: Futura MD BT;
+}
+.kepala{
+    background-color:#89CFFD;
+}
+.fotoadmin {
+    width: 3.5%;
+    height: 3.5%;
+    border-color: blue;
+    border-radius: 30px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.nama{
+    margin-left: 80px;
+    margin-top: -40px;
+    font-size: 25px;
+    font-family: FUTURA MD BT;
+}
+.ol_navbar{
+    display: flex;
+    justify-content: center;
+    background-color: none ;
+    list-style-type: none ;
+    margin-right: 20px;
+}
+
+.ol_navbar :hover{
+    display: flex;
+    justify-content: center;
+    background-color: none ;
+    list-style-type: none;
+    color: white;
+    transition: all .3s ease-in-out;
+
+}
+
+.li_navbar{
+
+    display: flex;
+    justify-content: center;
+    color: #293462;
+    padding: 13px;
+}
+
+.ol_navbar>li>a{
+    text-decoration: none;
+    color: #293462;
+}
